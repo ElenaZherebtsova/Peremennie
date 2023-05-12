@@ -126,6 +126,19 @@ public class Main {
     public static void task7() {
         System.out.println("Задача 7");
 
+        int one = 20;
+        int two = 16;
+        int three = 98;
+
+        if (one > two && one > three) {
+            System.out.println("Первое число больше всех.");
+        } else
+            if (two > one && two > three) {
+                System.out.println("Второе число больше всех.");
+            } else {
+                System.out.println("Третье число больше всех.");
+            }
+
     }
 
 
